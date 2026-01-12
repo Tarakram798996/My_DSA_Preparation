@@ -7,7 +7,6 @@ public class KthSmallest {
         int j=partition(left,right);
         if(j == k-1) {
             result = arr[j];
-            return;
         } else if(j > k-1) {
             quickSelect(left, j - 1);
         } else {

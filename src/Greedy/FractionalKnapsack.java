@@ -28,7 +28,7 @@ public class FractionalKnapsack {
         }
         return res;
     }
-    public static void main(String args[]){
+    public static void main(String[] args){
         val=new int[]{60, 100, 120};
         wt=new int[]{10,20,30};
         cap=50;
